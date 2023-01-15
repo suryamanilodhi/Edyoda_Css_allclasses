@@ -1,0 +1,45 @@
+.background_image{
+    height:400px;
+    width: 600px;
+   background-image: url("./flow.jpg");
+    border:2px solid red;
+    background-size:  cover;
+}
+.background_image:hover{
+    /* we can get rgb value by html color code */
+    /* we can add linear gradient to the image by this way  */
+    background-image:linear-gradient(rgba(51, 228, 255, 0.164),rgba(152, 149, 166, 0.625)),url(./flow.jpg);
+}
+.div1{
+    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    margin: 200px;
+    transition: 3s;
+    transform-origin: right bottom;
+    transform-origin: left;
+    transform-origin: right;
+    transform-origin: top left;
+    transform-origin: top right;
+    transform-origin: left bottom;
+
+}
+.div1:hover{
+    transform: rotate(360deg);
+}
+.div2{
+    height:200px;
+    width:300px;
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.div2 p{
+    transform:translate(200px,0px);
+    transition:transform 3s; 
+}
+.div2{
+    transform: translate();
+}

@@ -1,0 +1,82 @@
+ div{
+    background-color: yellowgreen;
+    width:100px;
+    margin:20px;
+    padding: 20px;
+    position: relative;
+    animation:example1 5s;
+    /* means animation example1 start after 3s */
+    animation-delay:3s;
+}
+
+@keyframes example1{
+    from{
+        left:0px;
+    }
+    to{
+        left:500px;
+    }
+}
+/* linear:means effect with the same speed from start to end */
+/* .div1{
+    animation-timing-function: linear;
+} */
+/*ease means: slow start,then fast, than end slowly */
+/* animation timing function control the speed */
+.div2{
+    animation-timing-function: ease;
+}
+/* ease-in:slow start */
+.div3{
+    animation-timing-function: ease-in;
+}
+/* ease-out:slow end */
+.div4{
+    animation-timing-function: ease-out;
+}
+/* ease-in-out:slow start and end */
+.div5{
+    animation-timing-function: ease-in-out;
+}
+
+
+.animation_css3{
+    
+    border:3px solid navy;
+    height: 300px;
+    width: 400px;
+    position:relative;
+    background-color: salmon;
+    margin:100px;
+    animation-name: examples3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* to reverse the animation */
+    /* animation-direction:reverse; */
+    /* TO ALTERNATE THE DIRECTION */
+    /* animation-direction: alternate; */
+    animation-direction: alternate-reverse;
+}
+@keyframes examples3{
+0%{
+left:0px; top:0px;
+}
+25%{
+    left:200px; top:0px;
+}
+50%{
+    left:200px; top:200px;
+}
+75%{
+    left:0px; top:200px;
+}
+100%{
+    left:0px; top:0px;
+}
+
+}
+
+
+
+
+

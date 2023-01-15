@@ -1,0 +1,136 @@
+.dflex_div1{
+ border:2px solid yellowgreen;
+ padding:20px;
+ display:flex;
+ background-color: pink;
+ height:500px;
+ /* for verticle alignment */
+ align-items:flex-end;
+ /* align-items: flex-start; */
+ /* align-items: center; */
+/* for horizontal alignment */
+ justify-content: center;
+
+
+
+}
+.child_div{
+   border:2px solid navy;
+   padding:40px;
+   margin:10px;
+   height:100x;
+   width: 300px;
+   border:10px solid red;
+   /* to keep size fix after adding padding */
+   box-sizing: border-box;
+}
+.dflex_div2{
+    border:2px solid navy;
+    background-color: lightblue;
+    padding:20px;
+    height:500px;
+    width:400px;
+    display: flex;
+}
+.dflex_div2 div{
+    border:3px solid darkblue;
+    margin: 10PX;
+    padding: 20px;
+    height:100px;
+    width:400px;
+    box-sizing: border-box;
+}
+/* align-slef means only fior specific div */
+.child_div2{
+    align-self:flex-start;
+}
+.child_div3{
+    align-self:center;
+}
+.child_div4{
+    align-self:flex-end;
+}
+.main_Section1{
+/* border:3px solild navy; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0px 2px 5px -3px grey;
+
+}
+.logo_div img{
+width: 150px;
+/* border:3px solid navy; */
+}
+.menu_div ul li{
+list-style-type: none;
+padding:20px;
+}
+.menu_div ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+}
+.menu_div ul{
+    display:flex;
+    /* border:3px solid navy; */
+    padding:0px;
+}
+.main_section1 .icon_div i{
+    font-size:20px;
+    padding:20px;
+}
+/* section2 heading */
+
+.main_Section2{
+    text-align: center;
+    
+}
+.main_Section2 h3{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 50px;
+    /* use color pickar by inspactcng it */
+    color:#82bb2e;
+    margin-bottom: 10px;
+}
+.main_Section2 h2{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: url(./amino/amino/bg-title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section2 heading */
+

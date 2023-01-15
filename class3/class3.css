@@ -1,0 +1,118 @@
+body{
+    top:0px;
+}
+ /* .navbar_style{
+    background-color: pink;
+    padding:10px;
+    width: 100%; */
+    /* position:fixed;
+    bottom: 10px; */
+    /* in case of sticky uyou cant add bottom */
+   /* position:sticky;
+    top:0px;
+    /* z-index: 2; */
+    /* z-index: 4;
+   
+}
+.navbar_style ul{
+    margin: 0px;
+    padding:0px;
+}
+.navbar_style ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar_style ul li a{
+    text-decoration: none;
+    color:darkblue;
+}
+body{
+    height:3000px;
+}
+.big_div{
+    height: 600px;
+    width:400px;
+    margin:40px;
+    border:2px solid red;;
+    background-color: pink;  
+    position:fixed; 
+    /* top:40px; */
+    /* bottom:5px;
+}
+img{
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin: 30px;
+}
+
+.main_div3{
+    height: 200px;
+    width:300px;
+    border:2px solid red;
+    background-color: aquamarine;
+    position: relative; */ 
+    /* z-index: 1; */
+    /* z-index: 4;
+}
+.child_div1{
+height: 100px;
+width: 130px;
+border:2px solid darkred;
+background-color: darkgreen;
+position:absolute; */
+/* it will come bottom rigt */
+/* bottom:0px;
+right:0px; */
+/* we we want on edge of bottom right */
+/* bottom:-30px;
+right:-30px; */
+
+
+/* }
+.image{
+    z-index:6;
+    position: relative;
+    
+}   */
+.overflow{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 45px;
+    /* data is hidden */
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
+    overflow: scroll;
+}
+img{
+    width: 400px;
+}
+h1{
+    color:aqua;
+    text-shadow: 2px 3px 4px red;
+    border: 2px solid blue;
+    box-shadow:5px 2px 2px  5px black;
+}
+.main_div div{
+    border:2px solid  blue;
+    padding: 20px;
+    margin: 30px;
+}
+.top_div{
+    /* box-shadow: 5px 2px 3px 5px red; */
+    box-shadow: 0px -10px 4px -3px red;
+}
+.right_div{
+    /* we use spreadness negative because bydefault some blurness is coming */
+    box-shadow: 10px 0px 3px -3px red;
+}
+.left_div{
+    box-shadow: -10px 0px 3px -3px red;   
+}
+.bottom_div{
+    box-shadow: 0px 10px 4px -3px red;
+}

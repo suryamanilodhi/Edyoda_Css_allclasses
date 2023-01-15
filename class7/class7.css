@@ -1,0 +1,147 @@
+.btn1{
+    border:2px solid navy;
+    padding:10px 20px;
+}
+.btn1:hover{
+    background-color:darkred;
+}
+.div1{
+    background-color: pink;
+    padding:20px;
+}
+.div1:hover{
+    background-color:lightcoral;
+}
+/* on hover on div1 color of p will change */
+.div1:hover p{
+    color: brown;
+}
+.div1:hover h1{
+    color:chartreuse;
+}
+.div2{
+ background-color: yellowgreen;
+ padding:20px;
+}
+/* it will hive the entire para */
+/* .div2 p{
+    display: none;
+}
+.div2:hover p{
+    display: block;
+}
+*/
+
+     /* it will hide only contant */
+.div2 p{
+visibility: hidden;
+}
+.div2:hover p{
+   visibility: visible;
+}
+.div3{
+    padding: 20px;
+    background-color: lightblue;
+}
+.div3 img{
+    height:200px;
+    width:300px;
+    display:none;
+}
+.div3:hover img{
+    display: inline-block;
+}
+input[type="text"]:focus+input[type="submit"]{
+    background-color: red;
+}
+/* color when you unvisited */
+.link_style:link{
+    color:darkturquoise;
+}
+/* color when you visited */
+.link_style:visited{
+      color:green;
+}
+/* color when you click on it */
+.link_style:active{
+    color:red;
+}
+.link_style:hover{
+color:coral;
+}
+
+.text1{
+    color:navy;
+    font-size: 20px;
+}
+.text1::first-line{
+    color:red;
+}
+.text1::first-letter{
+    color:green;
+    font-size:100px;
+}
+.text1::selection{
+    color:green;
+}
+
+.text2{
+    color:red;
+}
+.text2::before{
+    /* content:'234556' */
+    /* in case of box */
+    content:'';
+    height:200px;
+    width:200px;
+    /* i make it display inline block so that they can come in hello row */
+    display: inline-block;
+    background-color: red;
+}
+.text2::after{
+    /* content:'564734   ' */
+    content:'';
+    content:'';
+    height:200px;
+    width:200px;
+    display: inline-block;
+    background-color: red;
+
+}
+.text3{
+    color:darkred;
+    font-size:30px;
+    border:2px solid red;
+    padding:20px;
+    display: flex;
+}
+.text3::before{
+    content:'';
+    height:200px ;
+    width:30px;
+    display: inline-block;
+    background-image: linear-gradient(pink,blue);
+}
+.text3::after{
+    content:'';
+    height:200px ;
+    width:30px;
+    display: inline-block;
+    background-image: linear-gradient(pink,blue);
+}
+.main_div{
+    background-color: pink;
+    padding: 20px;
+    border: 3px solid navy;
+   /* by defalut they will come inone row */
+    display:flex;
+    /* to make ion column */
+    flex-direction: column;
+}
+.child_div{
+    border: 2px solid black;
+    padding:30px;
+    margin:20px;
+    font-size:30px;
+    width:300px;
+}

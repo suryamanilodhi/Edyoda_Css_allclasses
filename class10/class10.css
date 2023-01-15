@@ -1,0 +1,69 @@
+h1{
+    font-size:90px;
+    color:green;
+}
+.d_flex{
+    background-color: lightgrey;
+    
+    padding:20px;
+    display: flex;
+}
+.div1{
+    background-color: yellowgreen;
+    margin:0px 20px;
+    padding:20px;
+    font-size: 30px;
+    border:3px solid black;
+}
+.main{
+    height: 600px;
+    width: 800px;
+    border:2px solid red;
+    background-color: lightgoldenrodyellow;
+    padding:20px;
+    
+    
+}
+.child{
+    border:2px solid blue;
+    height:250px; 
+    width: 250px;
+    background-color: blanchedalmond;
+    margin:20px;
+    display: inline-block;
+}
+.bg_image{
+    height: 1200px;
+    width: 100%;
+    background-image: url(./flower.jpg);
+    background-size: cover;
+}
+
+@media only screen and (max-width:760px) and (min-width:320px){
+    h1{
+        color:red;
+        font-size:30px;
+
+    }
+    .d_flex{
+        flex-direction: column;
+        /* flex-wrap:wrap; */
+    }
+    .div1{
+        font-size:15px;
+        margin:10px 10px;
+    }
+    
+}
+.bg_image{
+    /* height: 600px; */
+    height: 100vh;
+    background-position: center;
+}
+
+/* 
+.child{
+        background-color:yellow;
+        display:inline-block;
+
+} */

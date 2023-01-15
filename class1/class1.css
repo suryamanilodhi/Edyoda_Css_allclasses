@@ -1,0 +1,100 @@
+.form_class{
+border:2px solid blue;
+width:70%;
+padding:20px;
+margin: 200px auto;
+}
+.label_Style{
+    color:darkred;
+    display:block;
+    font-size:20px;
+    margin-bottom: 5px;
+    margin-top:5px;
+    padding:10px 10px;
+}
+.input_style{
+    width:96%;
+    display:block;
+    padding:15px;
+    color:navy;
+    font-size: 20px;
+    border:none;
+    border-bottom:2px dotted darkred;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input_style:focus{
+   outline:none;
+   outline:2px dotted green;
+   border:none;
+}
+/* to change the behaviour of placeholder  */
+/* css element */
+::placeholder{
+    color:navy;
+}
+/* or */
+.input_style::placeholder{
+ color:navy;
+ font-size: 17px;
+}
+/* #submit_demo_1{
+ padding:12px 40px;
+ background-color: white;
+ border:5px double navy;
+ display: block;
+ margin: 20px auto 0px;
+} */
+/* other way */
+input[type="submit"]{
+    padding:12px 40px;
+    background-color: white;
+    border:5px double navy;
+    display: block;
+    margin: 20px auto 0px;   
+}
+input[type="submit"]:hover{
+    background-color: aqua;
+}
+
+table{
+    border:2px solid red;
+    border-collapse: collapse;
+    border-collapse: separate;
+    width:100%;
+}
+th,td{
+    border:2px solid red;
+    height:100px;
+    text-align: right;
+    text-align:center;
+    vertical-align:bottom;
+    vertical-align:middle;
+
+}
+th{
+    background-color: lightblue;
+    font-size: 30px;
+    color:black;
+}
+/* workl onlyl for second row */
+tr:nth-child(2){
+    background-color: blue;
+}
+
+tr:nth-child(even){
+ background-color:green;
+ text-decoration: underline;
+ columns: pink;
+ font-size: 20px;
+}
+tr:nth-child(odd){
+    background-color: darkmagenta;
+    font-size: 20px;
+}
+tr:nth-child(even):hover{
+    background-color: coral;
+}
+tr:nth-child(odd):hover{
+    background-color: blueviolet;
+}

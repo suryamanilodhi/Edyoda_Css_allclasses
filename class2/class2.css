@@ -1,0 +1,118 @@
+.main_div {
+  background-color: yellowgreen;
+  padding: 20px;
+}
+.link_Style {
+  display: block;
+  background-color: pink;
+  margin: 10px;
+  height: 80px;
+  width: 40px;
+}
+
+.pagination li{
+    list-style-type: none;
+    display: inline-block;  
+    border:2px solid red;
+    padding:10px;
+}
+.pagination li a{
+    color:brown;
+    text-decoration: none;
+}
+table{
+    border:2px solid red;
+    border-collapse: collapse;
+    border-collapse: separate;
+    width:45%;
+
+    /* display: inline-block;  some gap is coming in this case*/
+    /* use display inline table to edgist this gap */
+    display: inline-table;
+    margin:20px; 
+    
+}
+th,td{
+    border:2px solid black;
+    height:50px;
+    text-align: right;
+    text-align: center;
+    /* text-align: left; */
+    vertical-align:bottom;
+    vertical-align:middle;
+}
+th{
+    font-size: 30px;
+    color:black;
+    background-color: aliceblue;
+}
+/*nt child   relation */
+tr:nth-child(3){
+    background-color: blue;
+}
+tr:nth-child(even){
+    background-color: brown;
+    font-size: 30px;
+}
+tr:nth-child(odd){
+    background-color: aqua;
+    font-size: 30px;
+}
+tr:nth-child(even):hover{
+    background-color: dodgerblue;
+}
+
+
+
+.main_div2{
+    background-color:lightseagreen;
+    border:2px solid red;
+    margin:20px;
+    padding:20px;
+    font-size: 30px;
+    height:400px;
+    width: 100%;
+    text-align: center;
+    /* for verticle allgnment */
+    display:table;
+    
+}
+.main_div2 p{
+    color:navy;
+    display:table-cell; 
+    /* vertical-align: middle; */
+    
+    vertical-align: bottom;
+    /* vertical-align: top; */
+   
+}
+.img_Style img{
+    height: 80px;
+    width: 80px;
+}
+.img_Style{
+    display: table-cell;
+    vertical-align: middle;
+}
+.main_div3{
+    height: 200px;
+    width:300px;
+    border:2px solid red;
+    background-color: aquamarine;
+    position: relative;
+}
+.child_div1{
+height: 100px;
+width: 130px;
+border:2px solid darkred;
+background-color: darkgreen;
+position:absolute;
+/* it will come bottom rigt */
+bottom:0px;
+right:0px;
+/* we we want on edge of bottom right */
+bottom:-30px;
+right:-30px;
+
+
+}

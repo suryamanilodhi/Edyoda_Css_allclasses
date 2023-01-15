@@ -1,0 +1,86 @@
+
+.demo_class1 p{
+    color:red;
+}
+.demo_class1 b{
+    color: green;
+}
+
+/* desentant selector */
+.demo_class2 >h1{
+ color:orange;
+}
+/* adjacent silbling selector */
+h2+h3{
+    color: violet;
+}
+/* general sibling selector */
+h2~h3{
+    color:navy;
+}
+
+/* background image */
+.background_css{
+    color:black;
+    height:600px;
+    width: 600px;
+    border:5px double red;
+    background-image: url(./SAMANT\ PHOTO.jpg);
+    /* background-size: cover; */
+    background-repeat:no-repeat ;
+    /* background-position: center; */
+    /* background-position: top-left; */
+  
+    /* background-position:top center ; */
+    /* background-position: top right; */
+    /* background-position: center left ; */
+    /* background-position: center center; */
+    /* background-position: center right; */
+    /* background-position: bottom right; */
+
+    /* background-position: bottom left; */
+    /* background-position:bottom center ; */
+    /* background-position:bottom right ; */
+
+}
+/* body{
+    height: 3000px;
+    
+    background-image: url(https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}  */
+
+
+.background{
+    border:2px solid red;
+    height: 400px;
+    width: 400px;
+    background-image: url(./flower1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background:hover{
+    background-image: url(./flower2.jpg);
+
+    
+}
+.background_css2{
+    height: 200px;
+    width:300px;
+    /* background-image: linear-gradient(pink,blue); */
+    /* if you want gradient starting from end and end with start add to top */
+    /* background-image: linear-gradient(to top,pink,blue); */
+    /* background-image: linear-gradient(to right,pink,blue); */
+    /* background-image: linear-gradient(to left,pink,blue); */
+    background-image: linear-gradient(120deg,pink,blue);
+}
+
+.btn{
+    border:2px solid black;
+    padding: 30px;
+    margin: 40px;
+    background-image:linear-gradient(pink,blue);
+    border-radius: 10px;
+}
